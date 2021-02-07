@@ -1,0 +1,35 @@
+<html>
+    <head>
+        <title>Code Editor</title>
+        <link rel="stylesheet" type="text/css" href="./styles.css" />
+    </head>
+    <body>
+        <!-- <div class="question">
+            <h1>Write a program to find factorial of a number</h1>
+        </div> -->
+        <div class="language_select">
+            <h2>Type Your Code</h2>
+            <select>
+                <option value="0">Python</option>
+                <option value="4">JavaScript</option>
+                <option value="7">C</option>
+                <option value="77">CPP</option>
+                <option value="8">Java</option>
+            </select>
+        </div>
+        <div class="text_editor">
+            <div class="line_numbers">
+                <span>
+            </div>
+            <div class="code_area">
+                <textarea rows="15"># Write your code here
+print('Hello World');</textarea>
+            </div>
+        </div>
+        <div class="output">
+            <p></p>
+        </div>
+        <button> Compile </button>
+        <script src="./sandbox.js"></script>
+    </body>
+</html>
